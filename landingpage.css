@@ -1,0 +1,404 @@
+/* basic elements */
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    height: 150%;
+    width: 100%;
+}
+
+main, header, footer, div#slider {
+    /*width: 1600px;*/
+    width: 100%;
+    margin: 0px auto;
+}
+
+header {
+    height: 50px;
+
+}
+
+main, div#slider {
+    height: 750px;
+}
+
+body {
+    background-image: url('images/house.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    }
+
+main {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+footer {
+    height: 50px;
+    background-color: #515953;
+    clear: left;
+    position: relative;
+    bottom: -50%;
+}
+
+.float {
+    float: left;
+}
+
+/* header's element */
+
+header {
+    background-color: #39423d;
+}
+
+div#advantage{
+    background: url('images/meine-website.de.png');
+    background-repeat: no-repeat;
+    background-position: 5% 5px;
+    background-size: 13% 67%;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-left: 30%;
+
+}
+
+div#advantage div{
+    height: 100%;
+    /*float: right;   
+    width: 30%;*/
+    background: url('images/forma.png');
+    background-repeat: no-repeat;
+    background-position: 0px 8px;
+    background-size: 10% 50%;
+}
+
+div#advantage-1, div#advantage-3{
+    width: 30%;
+}
+
+div#advantage-2 {
+    width: 25%;
+}
+
+div#advantage div{
+    float: left;
+    
+}
+
+div#advantage div p{
+    display: block;
+    margin-top: 15px;
+    margin-left: 35px;
+    color: lightgrey;
+}
+
+
+/* main's elements */
+/* element of div slider */
+div#slider {
+    /*background-image: url('images/house.png');*/
+    /*background-color: rgba(0, 0, 0, 0.02);*/
+    
+}
+
+/* elements of div step*/
+div#slider div#step {
+    width: 100%;
+    padding: 1% 18%;
+    height: 15%;
+    background-color: #eceae8;
+}
+
+div#slider div#step div{
+    height:100%;    
+}
+
+div#step-1{
+    width: 20%;
+    background-image: url('images/strich.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 85% 8%;
+    color: #929f00;
+}
+
+div#step-2{
+    width: 25%;
+    color: #aeaeac;
+}
+
+div#step-3{
+    width: 35%;
+    color: #aeaeac;
+}
+
+
+div#slider div#step p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.first-letter {
+    font-size: 250%;
+    line-height: 80%;
+    padding: 0px 5px;
+}
+
+div#arrow-1, div#arrow-2 {
+    width: 10%;
+    background: url('images/arrow.png') no-repeat center center;
+}
+
+/* elements of div slide-control */
+div#slider div#slide-control {
+    width: 100%;
+    /*margin: 0 auto;*/
+    height: 80%;
+    
+}
+
+div#step, div#slide-control {
+    width: 100%;
+    
+}
+
+div#slide-control {
+    clear:left;
+}
+
+
+div#question p{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+div#question p span{
+    font-weight: bold;
+}
+
+div#question {
+    height: 30%;
+}
+
+div#formular{    
+    height: 50%;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 5px solid #d9d9d9;
+    border-radius: 15px;
+}
+
+div#formular-icon {
+    float: left;
+    height: 100%;
+    width: 35%;   
+}
+
+div#formular-icon img {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+ div#form{
+    height: 100%;
+    /*width: 75%;
+    position: relative;
+    left: 10%;
+    display: inline-block;*/
+ }
+ 
+ div#form form{
+     
+   /* width: 100%;
+    height: 100%;*/
+    padding: 10%;
+ }
+ 
+ div#form input#acreage {
+     width: 60%;
+     height: 10%;
+ }
+ 
+ div#form label#alternative {
+    display: inline-block;
+    width: 13%;
+    height: 40px;
+    margin: 40px 0px;
+ }
+ 
+ div#form input[type="text"]{
+     width: 60px;
+    height: 61px;
+    border-radius: 10px;
+ }
+ 
+ div#form label#label-text{
+     padding-left: 10px;
+ }
+ 
+ div#form button{
+    width: 15%;
+    height: 61px;
+    background-color: #929f00;
+    margin-left: 15%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3em;
+
+ }
+
+/* trustbox elements*/
+
+div#trustbox {
+    width: 100%;
+    height: 25%;
+    background-color: #39423d;
+}
+
+div#medien, div#rating, div#statistic {
+   height: 80%;
+   background-color: #515953;
+   width: 30%;
+   display: inline-block;
+   border-radius: 5px;
+   margin: 20px 25px;
+   padding: 20px;
+}
+
+
+div#rating, div#statistic {
+    vertical-align: top;
+}
+
+div#rating {
+    padding: 15px;
+}
+
+div#trustbox p{
+    color: lightgrey;
+    font-size: 0.9em;
+}
+
+div#trustbox hr{
+    color: lightgrey;
+    opacity: 0.5;
+}
+
+div#medien img{
+    margin: 5% 0%;
+}
+
+/* elements of div#rating */
+div#rating span{
+    display: inline-block;
+    margin: 0 0 0 6%;
+}
+
+span#vector {
+    text-transform: uppercase;
+}
+
+div#rating img#last-star{
+    opacity: 0.5;
+}
+
+div#comment {
+    width: 100%;
+    padding: 10px;
+}
+div#rating-number {
+    width: 7%;
+    height: 6%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+
+div#rating-number p{
+    color: black;   
+    margin: 1px; 
+}
+
+div#rating-number p span#upper{
+    font-size: 0.8em;
+    color: gray;
+}
+
+div#guest-comment {
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+}
+
+div#guest-comment span.star img{
+    width: 12%;
+    height: 12%;
+}
+
+p#marcus-comment {
+    font-style: italic;
+    display: inline-block;
+    margin: 1px;
+}
+
+/* elements of div statistic */
+div#statistic p#time, div#statistic p#sum{
+    display: inline-block;
+    padding-top: 7%;
+    width: 49%;
+}
+
+div#statistic p#sum{
+    padding: 0 0 0 2%;
+    
+}
+
+div#statistic span#last-minute, span#num {
+    display: inline-block;
+    background-color: grey;
+    border-radius: 5px;
+    width: 40%;
+    height: 30%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/* footer's elements */
+footer p {
+    display: block;
+    text-align: center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: white;
+    
+}
+
+
+div#question img#polygon{
+    /*width: 18%;
+    height: 20%;
+    position: relative;
+    left: -15px;
+    top: -17px;    */
+    width: 11%;
+    height: 20%;
+    position: absolute;
+    left: -18px;
+    top: -17px;
+    margin-left: 20%
+}

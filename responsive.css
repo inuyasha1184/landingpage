@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1598px){
+    div#advantage-3, div#statistic{
+        display: none;
+    }
+    
+    div#advantage-1, div#advantage-2{
+        font-size: 1.2em;
+        width: 40%;
+        padding-left: 1%;
+    }
+    
+    div#step p{
+        font-size: 1.5em;
+    }
+    
+    div#step {
+        width: 100%;
+        padding: 1%;
+    }
+    
+    div#formular{
+        width: 90%;
+        padding: 0;
+    }
+    
+    div#form form {
+        padding: 8%;
+        font-size: 1.3em;
+    }
+    
+    div#medien, div#rating {
+        width: 46%;
+    }
+    
+    div#medien, div#rating p{
+        font-size: 1.25em;
+    }
+    
+    div#trustbox hr{
+        margin-top: 30px;
+    }
+    
+    div#medien img{
+        margin: 2% 0%;
+        width: 94%;
+        height: 45%;
+    }
+    
+    div#rating span{
+        margin-left: 15%;
+    }
+    
+    div#comment {
+        padding: 0;
+    }
+    
+    div#guest-comment {
+        font-size: 0.9em;
+    }
+    
+    div#rating div#rating-number hr{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    div#advantage-1, div#advantage-2{
+        display: none;
+    }
+    
+    div#advantage {
+        background-position: 45% 5px;
+    }
+   
+    div#form form{
+        font-size: 1em;
+    }
+    div#form label#alternative {
+        width: 17%;
+    }
+    
+    div#trustbox{
+        font-size: 0.8em;   
+    }
+    
+    div#medien {
+        width: 40%;
+    }
+    
+    div#medien img{
+        width: 99%;
+    height: 30%;
+    }
+    
+    div#rating p {
+        font-size: 1.2em;
+    }
+    
+    div#rating p span {
+        margin-left: 1%;
+    }
+    
+}
+@media only screen and (max-width: 765px){
+    div#step-2, div#step-3, div#arrow-1, div#arrow-2, div#formular-icon {
+        display: none;
+    }
+    
+    div#step-1 {
+        width: 70%;
+        font-size: 2em;
+        margin: 0 auto;
+    }
+    div#trustbox {
+        height: 50%;
+        font-size: 1.2em;
+    }
+    div#medien, div#rating {
+        width: 95%;
+        height: 40%;
+    }
+    
+    div#rating p span#vector, span.star{
+        margin-left: 19%;
+    }
+    
+    div#form input#acreage {
+    width: 89%;
+    }
+    
+    div#form label#alternative{
+        width: 20%;
+        margin: 40px 20px;
+    }
+    
+    div#form input[type="text"]{
+        width: 180px;
+    }
+    
+    div#form button{
+        width: 33%;
+        margin-left: 27%;
+    }
+}
+

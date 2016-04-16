@@ -1,0 +1,133 @@
+<!doctype html>
+<html style="height:100%; width: 100%">
+
+<head>
+    <title>Landingpage</title>
+    <meta content="create a landingpage" charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="landingpage.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+</head>
+
+<body>
+    <header>
+       
+            
+            <div id="advantage">
+                <div id="advantage-1">
+                    <p>bester Verkaufserlös durch Vergleich</p>
+                </div>
+                <div id="advantage-2">
+                    <p>kostenlos &amp; unverbindlich
+                    </p>
+                </div>
+                <div id="advantage-3">
+                    <p>100% Geprüfte Makler</p>
+                </div>
+            </div>
+       
+    </header>
+    <main>
+        <div id="slider">
+            <div id="step">
+                <div id="step-1" class="float">
+                    <p><span class="first-letter float">1</span>Sie beschreiben<br>Ihre Immobilie</p>
+                </div>
+                <div id="arrow-1" class="float"></div>
+                <div id="step-2" class="float">
+                    <p><span class="first-letter float">2</span> Wir finde passende<br> Makler für Sie</p>
+                </div>
+                <div id="arrow-2" class="float"></div>
+                <div id="step-3" class="float">
+                    <p><span class="first-letter float">3</span> Sie vergleichen kostenlos <br>Verkaufsangebote der Makler</p>
+                </div>
+            </div>
+            <div id="slide-control">
+                <div id="question">
+                    <img id="polygon" src="images/Polygon.png" style="width: 11%;
+    
+    height: 4%;
+    position: absolute;
+    left: -18px;
+    top: 145px;
+    margin-left: 20%;"/>
+                    <p>Welche <span>Fläche</span> hat das Grundstück des Hauses?</p>
+                </div>
+                <div id="formular">
+                    <div id="formular-icon">
+                        <img src="images/formular-icon.png" alt="formular-icon" />
+                    </div>
+
+                    <div id="form">
+                        <form>
+                            <input type="range" id="acreage" min="0" max="3000" value="550" step="1" oninput="outputUpdate(this.value)"/>
+                            <output for="acreage" id="output">550</output><label>m2</label>
+                            <br>
+                            <label id="alternative">Alternativ:<br>genaue Angabe</label>
+                            <input type="text"/><label id="label-text">m2</label>
+                            <button type="submit">weiter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="trustbox">
+                <div id="medien">
+                    <p>Bekannt aus den Medien</p>
+                    <hr>
+                    <img src="images/medien.png" alt=""/>
+                </div>
+                <div id="rating">
+                    <div>
+                        <p>Kundenbewertung<span id="vector">ø "Sehr gut" 4,6/5,0</span>
+                        <span class="star">
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star" id="last-star"/>
+                        </span>
+                        </p>
+                    </div>
+                    <hr>
+                    <div id="comment">
+                        <div id="rating-number">
+                            <p>5,0</p>
+                            <hr>
+                            <p><span id="upper">5,0</span></p>
+                        </div>
+                        <div id="guest-comment">
+                            <p id="little-star"><span class="star">
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                            <img src="images/star.png" alt="star"/>
+                        </span><span id="last-comment">Letzte Bewertung von Markus E</span></p>
+                            <p id="marcus-comment">Schnell und unkompliziert das Haus verkauft. Danke - super Service und das ...
+                        </div>
+                    </div>
+                </div>
+               <div id="statistic">
+                    <p>Tagesstatistik</p>
+                    <hr>
+                    <p id="time">Letzte Anfrage vor <span id="last-minute">18 Min</span></p>
+                    <p id="sum">Anfrage von heute <span id="num">13</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Impressum | AGB | © 2014 immobilie-richtig-verkaufen.de</p>
+    </footer>
+
+<script>
+    function outputUpdate(value){
+        document.getElementById('output').value = value;
+        //alert(value);
+    }
+</script>
+</body>
+
+</html>
